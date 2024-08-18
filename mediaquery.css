@@ -1,0 +1,69 @@
+/* Responsive Design */
+
+/* Styles for screens 768px and below */
+@media(max-width: 768px) {
+    /* Add styles for screens 768px and below */
+    h1{
+        font-size: 1.8em;
+        /* Slightly smaller font size for the heading on smaller screens. */
+    }
+    .rakhi-image{
+        width: 70px;
+        /* Reduces the image width for better fitting on smaller screens. */
+    }
+    .message {
+        font-size: 1.1em;
+        /* Slightly smaller font size for the message on smaller screens. */
+    }
+
+    .input-field {
+        font-size: 0.9em;
+        /* Slightly smaller font size for the input field text on smaller screens. */
+    }
+    .send-btn{
+        font-size: 0.9em;
+        /* Slightly smaller font size for the send button text on smaller screens. */
+    }
+    #personalMessage{
+        font-size: 1.1em;
+        /* Slightly smaller font size for the personalized message on smaller screens. */
+    }
+}
+
+/* Styles for screens 480px and below */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+        /* Further reduces the font size of the heading on very small screens. */
+    }
+
+    .rakhi-image {
+        width: 60px;
+        /* Further reduces the image width for very small screens. */
+    }
+
+    .message {
+        font-size: 1em;
+        /* Reduces the font size of the message on very small screens. */
+    }
+
+    .input-field {
+        font-size: 0.8em;
+        /* Reduces the font size of the input field text on very small screens. */
+    }
+
+    .send-btn {
+        font-size: 0.8em;
+        /* Reduces the font size of the button text on very small screens. */
+    }
+
+    #personalMessage {
+        font-size: 1em;
+        /* Reduces the font size of the personalized message on very small screens. */
+    }
+
+    .container {
+        padding: 20px;
+        /* Reduces padding inside the container to fit better on very small screens. */
+    }
+}
